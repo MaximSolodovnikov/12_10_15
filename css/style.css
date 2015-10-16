@@ -1,15 +1,27 @@
 html,body{margin:0;padding:0}
 #header { width: 100%; height: 50px; background: grey;}
-#authorization{float:right;width:10%;/*margin-left:-25%;*/ margin-top: 15px; text-decoration: none; font-weight: bold;}
-#authorization a {text-decoration: none; color: white;}
-#authorization form {display: inline-block;}
+
+#wrapper{float:left;width:100%}
+
 #menu{float:left;/*width:25%;*//*margin-left:-100%*/}
 #menu li {display:inline;}
 #menu a {display: inline-block; text-decoration: none; padding-left: 10px; color: white;}
+#menu a:hover {color: orange;}
 
-#wrapper{float:left;width:100%}
+#search form {margin-top: 15px;}
+
+#authorization{float:right;width:15%;/*margin-left:-25%;*/ margin-top: 15px; text-decoration: none; /*font-weight: bold;*/}
+#authorization a {text-decoration: none; color: white;}
+#authorization form {display: inline-block;}
+
+#rightblock li {display:block; padding-top:10px;}
+#rightblock a {text-decoration: none; color: black;}
+#rightblock a:hover {color: red;}
+
 #slider{margin: 0 25%}
-#slider img {width: 100%;height: auto;}
+#slider img { width: 100%;height: auto;}
+
 #content{margin: 0 25%}
 
 #footer{clear:left;width:100%; border-top: 1px solid grey;}
+#footer span {float:right; padding-right: 10px; color: grey; font-size: 0.8em; font-weight: bold;}
